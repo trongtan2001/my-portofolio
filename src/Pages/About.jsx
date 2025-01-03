@@ -118,7 +118,7 @@ const AboutPage = () => {
     const storedProjects = JSON.parse(localStorage.getItem("projects") || "[]");
     const storedCertificates = JSON.parse(localStorage.getItem("certificates") || "[]");
     
-    const startDate = new Date("2021-11-06");
+    const startDate = new Date("2024-01-01");
     const today = new Date();
     const experience = today.getFullYear() - startDate.getFullYear() -
       (today < new Date(today.getFullYear(), startDate.getMonth(), startDate.getDate()) ? 1 : 0);
@@ -205,7 +205,7 @@ const AboutPage = () => {
                 data-aos="fade-right"
                 data-aos-duration="1300"
               >
-                Eki Zulfar Rachman
+                Le Trong Tan
               </span>
             </h2>
             
@@ -214,14 +214,11 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              seorang siswa Teknik Jaringan Komputer dan Telekomunikasi yang
-              tertarik dalam pengembangan Front-End. Saya berfokus pada
-              menciptakan pengalaman digital yang menarik dan selalu berusaha
-              memberikan solusi terbaik dalam setiap proyek.
+              A Computer Network and Telecommunication Engineering student interested in Full-Stack development. I focus on creating engaging digital experiences and always strive to deliver the best solutions in every project.
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
-              <a href="https://drive.google.com/drive/folders/1BOm51Grsabb3zj6Xk27K-iRwI1zITcpo" className="w-full lg:w-auto">
+              <a href="https://drive.google.com/file/d/1rMms92zTx_0O9HkX1FafsTFZHSLLW6K5/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="w-full lg:w-auto">
               <button 
                 data-aos="fade-up"
                 data-aos-duration="800"
